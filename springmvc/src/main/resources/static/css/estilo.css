@@ -5,7 +5,7 @@
 
 body{
 	background-color: blue;
-	color: white;
+	color: black;
 	padding: 10px 70px 10px 70px;
 }
 
@@ -19,4 +19,8 @@ body{
 thead{
 	background-color: blue;
 	color: white;
+}
+
+.house-number {
+	width: 105px
 }
