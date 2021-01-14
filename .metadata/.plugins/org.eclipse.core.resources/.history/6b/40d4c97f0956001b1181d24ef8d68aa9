@@ -26,8 +26,6 @@ public class HomeController {
 	@ResponseBody
 	public Usuario cadastrar(@RequestBody Usuario usuario) {
 		
-		
-		
-		return _usuarioRepository.save(usuario);
+		return usuario;
 	}
 }

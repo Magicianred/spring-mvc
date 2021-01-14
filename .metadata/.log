@@ -587,3 +587,45 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.eclipse.lsp4e 4 0 2021-01-13 21:45:31.802
 !MESSAGE [Error]	No config file for d:\Junior\Projetos\ws-springmvc\springmvc\src\main\resources\templates\usuarios.html
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:11.043
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:11.049
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@74e2de39[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:11.055
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:12.766
+!MESSAGE Boot LS startup time from start to initialized: 1707ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:12.827
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XBShWBtiisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:12.833
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:12.838
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:12.843
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:12.847
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:12.851
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XBShWBti => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:12.857
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:12.868
+!MESSAGE buffering callback sts4.classpath.XBShWBti springmvc false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:12.874
+!MESSAGE executing callback sts4.classpath.XBShWBti 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 22:29:12.895
+!MESSAGE executing callback sts4.classpath.XBShWBti SUCCESS [done]

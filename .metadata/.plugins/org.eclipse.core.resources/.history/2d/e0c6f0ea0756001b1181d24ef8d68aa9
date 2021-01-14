@@ -16,12 +16,10 @@ function cadastrar() {
 		url:"/index/cadastrar",
 		type: 'PUT',
 		dataType: 'json',
-		contentType: 'application/json',
-		data: JSON.stringify(usuario)
+		ContentType: 'appllication/json'
 	})
 	.done(function(e) {
 		alert("Funcionou!");
-		console.table(e);
 	})
 	.fail(function() {
 		alert("Falhou!");

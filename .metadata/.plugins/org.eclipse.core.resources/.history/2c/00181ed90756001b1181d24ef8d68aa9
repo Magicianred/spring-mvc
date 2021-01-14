@@ -13,15 +13,12 @@ function cadastrar() {
 	usuario.endereco.cidade = $("#cidade").val();
 	
 	$.ajax({
-		url:"/index/cadastrar",
-		type: 'PUT',
-		dataType: 'json',
-		contentType: 'application/json',
-		data: JSON.stringify(usuario)
+		//url:"/index/cadastrar",
+		//type: 'PUT',
+		
 	})
 	.done(function(e) {
 		alert("Funcionou!");
-		console.table(e);
 	})
 	.fail(function() {
 		alert("Falhou!");
