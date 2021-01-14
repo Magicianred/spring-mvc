@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:th="http://www.thymeleaf.org"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+	<link th:href="@{/css/bootstrap.min.css}" rel="stylesheet"/>
+	<link th:href="@{/css/estilo.css}" rel="stylesheet"/>
+	<meta charset="ISO-8859-1">
+	<title>CRUD MVC</title>
+</head>
+<body>
+	<div id="formulario">
+		<div align="right">
+			<a th:href="@{/usuarios}"><button class="btn btn-primary" id="botao">Usuários Cadastrados</button></a>
+		</div> 
+		<br />
+		
+		<h1 align="center">Cadastrar Usuário</h1>
+		<hr><br/>
+		
+		<div class="form-group">
+			<label>Nome Completo:</label> <br />
+			<input class="form-control" type="text" name="nome" id="nome" autofocus />
+		</div>
+		<br />
+		
+		<div class="form-group">
+			<label>Login:</label> <br />
+			<input class="form-control" type="email" name="email" id="email" />
+		</div>
+		<br />
+		
+		<div class="form-group">
+			<label>Senha:</label> <br />
+			<input class="form-control" type="password" name="senha" id="senha" />
+		</div>
+		<br />
+
+		<h2 align="center">Endereço</h2>
+		<hr><br/>		
+		<div class="form-group row">
+			<label>CEP:</label> <br />
+			<div class="col-md-4"><input class="form-control" type="text" name="cep" id="cep" /></div>
+			<div class="col-md-4"><button class="btn btn-primary" onclick="buscar()">Buscar CEP</button></div>
+		</div>
+		<br />
+		
+		<div class="form-group row">
+			<label>Rua:</label> <br />
+			<input class="form-control" type="text" name="rua" id="rua" />
+		</div>
+		<br />
+		
+		<div class="form-group">
+			<label>Número:</label> <br />
+			<input class="form-control" type="text" name="numero" id="numero" />
+		</div>
+		<br />
+		
+		<div class="form-group">
+			<label>Bairro:</label> <br />
+			<input class="form-control" type="text" name="bairro" id="bairro" />
+		</div>
+		<br />
+		
+		<div class="form-group">
+			<label>Cidade:</label> <br />
+			<input class="form-control" type="text" name="cidade" id="cidade" />
+		</div>
+		<br />
+		
+		<div align="center">
+			<button class="btn btn-success" onclick="cadastrar()" id="botao">Cadastrar</button>
+		</div>
+		
+	</div>
+</body>
+</html>

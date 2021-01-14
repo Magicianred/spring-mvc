@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:th="http://www.thymeleaf.org"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+	<link href="@{/css/estilo.css}" rel="stylesheet"/>
+	<meta charset="ISO-8859-1">
+	<title>Usuários</title>
+</head>
+<body>
+
+		<div align="right">
+			<a th:href="@{/}"><button id="botao">Cadastrar Usuário</button></a>
+		</div> 
+		<br />
+		
+		<h1 align="center">Cadastrar Usuário</h1>
+		<hr><br/>
+
+</body>
+</html>
