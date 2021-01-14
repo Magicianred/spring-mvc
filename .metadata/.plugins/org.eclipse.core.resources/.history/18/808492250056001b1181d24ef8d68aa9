@@ -21,10 +21,12 @@ public class UsuariosController {
 	}
 	
 	@RequestMapping("/teste")
-	public Usuario teste() {
-		Usuario usuario = _usuarioRepository.findByNomeAndEmailContaining("roi", "roi");
+	public String teste() {
+		Usuario usuario = new Usuario();
+		
+		_usuarioRepository.findByNome("roi");
 		_usuarioRepository.buscarNomeCompleto();
 		
-		return usuario;
+		return "oi";
 	}
 }

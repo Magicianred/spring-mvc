@@ -22,7 +22,7 @@ public class UsuariosController {
 	
 	@RequestMapping("/teste")
 	public Usuario teste() {
-		Usuario usuario = _usuarioRepository.findByNomeAndEmailContaining("roi", "roi");
+		Usuario usuario = _usuarioRepository.findByNomeAndEmailContaining("roi");
 		_usuarioRepository.buscarNomeCompleto();
 		
 		return usuario;
