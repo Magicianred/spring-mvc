@@ -6,17 +6,17 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <head>
 	<link th:href="@{/css/bootstrap.min.css}" rel="stylesheet"/>
 	<link th:href="@{/css/estilo.css}" rel="stylesheet"/>
-	<title>UsuÃ¡rios</title>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+	<meta charset="ISO-8859-1">
+	<title>Usuários</title>
 </head>
 <body>
 	<div id="formulario">
 		<div align="right">
-			<a th:href="@{/}"><button id="botao">Cadastrar UsuÃ¡rio</button></a>
+			<a th:href="@{/}"><button id="botao">Cadastrar Usuário</button></a>
 		</div> 
 		<br />
 		
-		<h1 align="center">UsuÃ¡rios Cadastrados</h1>
+		<h1 align="center">Usuários Cadastrados</h1>
 		<hr><br/>
 		<table style="width:100%">
 			<thead>
@@ -25,7 +25,7 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 					<th>Email</th>
 					<th>Senha</th>
 					<th>CEP</th>
-					<th>EndereÃ§o</th>
+					<th>Endereço</th>
 				</tr>
 			</thead>
 			

@@ -550,3 +550,40 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 20:44:34.639
 !MESSAGE executing callback sts4.classpath.GxCHyahb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 21:39:23.340
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GxCHyahb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 21:39:23.346
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.GxCHyahb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 21:39:23.351
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-13 21:39:23.356
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GxCHyahb => OK
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-01-13 21:39:26.122
+!MESSAGE [Info]	Angular language server process ID: 7816
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-01-13 21:39:26.135
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-01-13 21:39:26.143
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-01-13 21:39:26.149
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-01-13 21:39:27.018
+!MESSAGE [Error]	No config file for d:\Junior\Projetos\ws-springmvc\springmvc\src\main\resources\templates\index.html
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-01-13 21:43:25.590
+!MESSAGE [Info]	ESLint server running in node v12.16.1
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-01-13 21:43:35.947
+!MESSAGE [Error]	[tsserver] npm notice created a lockfile as package-lock.json. You should commit this file.
+
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-01-13 21:45:31.802
+!MESSAGE [Error]	No config file for d:\Junior\Projetos\ws-springmvc\springmvc\src\main\resources\templates\usuarios.html

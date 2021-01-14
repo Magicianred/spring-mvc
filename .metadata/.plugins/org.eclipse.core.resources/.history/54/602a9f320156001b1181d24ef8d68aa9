@@ -6,17 +6,18 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <head>
 	<link th:href="@{/css/bootstrap.min.css}" rel="stylesheet"/>
 	<link th:href="@{/css/estilo.css}" rel="stylesheet"/>
+	<meta charset="ISO-8859-1">
 	<title>CRUD MVC</title>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 </head>
 <body>
 	<div id="formulario">
 		<div align="right">
-			<a th:href="@{/usuarios}"><button class="btn btn-primary" id="botao">UsuÃ¡rios Cadastrados</button></a>
+			<a th:href="@{/usuarios}"><button class="btn btn-primary" id="botao">Usuários Cadastrados</button></a>
 		</div> 
 		<br />
 		
-		<h1 align="center">Cadastrar UsuÃ¡rio</h1>
+		<h1 align="center">Cadastrar Usuário</h1>
 		<hr><br/>
 		
 		<div class="form-group">
@@ -37,7 +38,7 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 		</div>
 		<br />
 
-		<h2 align="center">EndereÃ§o</h2>
+		<h2 align="center">Endereço</h2>
 		<hr><br/>		
 		<div class="form-group row">
 			<label>CEP:</label> <br />
@@ -52,7 +53,7 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 				<input class="form-control" type="text" name="rua" id="rua" />			
 			</div>
 			<div class="col-md-4">
-				<label>NÃºmero:</label> <br />
+				<label>Número:</label> <br />
 				<input class="form-control house-number" type="text" name="numero" id="numero" />
 			</div>
 		</div>
@@ -77,6 +78,5 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 		</div>
 		
 	</div>
-	<script th:src="@{/js/index.js}"></script>
 </body>
 </html>
