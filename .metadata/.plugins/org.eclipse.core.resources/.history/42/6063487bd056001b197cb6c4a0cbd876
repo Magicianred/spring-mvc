@@ -21,7 +21,7 @@ function cadastrar() {
 	})
 	.done(function(e) {
 		alert("Funcionou!");
-		window.location.href="/usuarios";
+		window.location("/usuarios")
 		console.table(e);
 	})
 	.fail(function() {

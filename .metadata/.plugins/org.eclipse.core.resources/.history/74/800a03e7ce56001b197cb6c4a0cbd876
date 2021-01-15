@@ -1,0 +1,5 @@
+function buscar() {
+	if($"#cep").val() != "") {
+		
+	}
+}

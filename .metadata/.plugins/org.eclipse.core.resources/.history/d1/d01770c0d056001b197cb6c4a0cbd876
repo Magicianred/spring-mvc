@@ -27,13 +27,13 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 		
 		<div class="form-group">
 			<label>Login:</label> <br />
-			<input class="form-control" type="email" name="email" id="email" />
+			<input class="form-control" type="email" name="email" id="email" required="required"/>
 		</div>
 		<br />
 		
 		<div class="form-group">
 			<label>Senha:</label> <br />
-			<input class="form-control" type="password" name="senha" id="senha" />
+			<input class="form-control" type="password" name="senha" id="senha" required="required"/>
 		</div>
 		<br />
 
@@ -41,7 +41,7 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 		<hr><br/>		
 		<div class="form-group row">
 			<label>CEP:</label> <br />
-			<div class="col-md-4"><input class="form-control" type="text" name="cep" id="cep" /></div>
+			<div class="col-md-4"><input class="form-control" type="text" name="cep" id="cep" required="required"/></div>
 			<div class="col-md-4"><button class="btn btn-primary" onclick="buscar()">Buscar CEP</button></div>
 		</div>
 		<br />
@@ -49,11 +49,11 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 		<div class="form-group row">
 			<div class="col-md-4">
 				<label>Rua:</label> <br />
-				<input class="form-control" type="text" name="rua" id="rua" />			
+				<input class="form-control" type="text" name="rua" id="rua" required="required"/>			
 			</div>
 			<div class="col-md-4">
 				<label>Número:</label> <br />
-				<input class="form-control house-number" type="text" name="numero" id="numero" />
+				<input class="form-control house-number" type="text" name="numero" id="numero" required="required"/>
 			</div>
 		</div>
 		<br />
@@ -61,11 +61,11 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 		<div class="form-group row">
 			<div class="col-md-3">
 				<label>Bairro:</label> <br />
-				<input class="form-control" type="text" name="bairro" id="bairro" />
+				<input class="form-control" type="text" name="bairro" id="bairro" required="required"/>
 			</div>
 			<div class="col-md-2">
 				<label>Cidade:</label> <br />
-				<input class="form-control" type="text" name="cidade" id="cidade" />
+				<input class="form-control" type="text" name="cidade" id="cidade" required="required"/>
 			</div>
 		</div>
 		<br />

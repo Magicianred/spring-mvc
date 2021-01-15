@@ -77,7 +77,6 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 		</div>
 		
 	</div>
-	<script th:src="@{/js/buscarCep.js}"></script>
 	<script th:src="@{/js/index.js}"></script>
 </body>
 </html>

@@ -766,3 +766,66 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.eclipse.lsp4e 4 0 2021-01-14 21:41:52.620
 !MESSAGE [Error]	No config file for d:\Junior\Projetos\ws-springmvc\springmvc\src\main\resources\templates\usuarios.html
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:07:41.306
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mKPgYcRd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:07:41.312
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.mKPgYcRd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:07:41.317
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:07:41.322
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mKPgYcRd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:01.998
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:02.003
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2532e07e[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:02.007
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:05.574
+!MESSAGE Boot LS startup time from start to initialized: 3561ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:05.640
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.voeJwmJQisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:05.646
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:05.650
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:05.654
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:05.658
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:05.663
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.voeJwmJQ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:05.670
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:05.678
+!MESSAGE buffering callback sts4.classpath.voeJwmJQ springmvc false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:05.682
+!MESSAGE executing callback sts4.classpath.voeJwmJQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-01-14 22:14:05.703
+!MESSAGE executing callback sts4.classpath.voeJwmJQ SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-01-14 22:26:03.614
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 994, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-01-14 22:26:09.875
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 994, state before: 10 after: 4
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-01-14 22:26:52.924
+!MESSAGE [Log]	Scanner.scan has not advanced at offset 994, state before: 10 after: 4
