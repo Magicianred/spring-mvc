@@ -1,0 +1,8 @@
+$.ajax({
+	url: "/usuarios/todos",
+	type: 'PUT'
+}).done(function(e) {
+	console.log(e);
+});
+
+$("#todosUsuarios").text("ok");

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:th="http://www.thymeleaf.org"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+	<link th:href="@{/css/bootstrap.min.css}" rel="stylesheet"/>
+	<link th:href="@{/css/estilo.css}" rel="stylesheet"/>
+	<title>Usuários</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+</head>
+<body>
+	<div id="formulario">
+		<div align="right">
+			<a th:href="@{/}"><button id="botao">Cadastrar Usuário</button></a>
+		</div> 
+		<br />
+		
+		<h1 align="center">Usuários Cadastrados</h1>
+		<hr><br/>
+		<table style="width:100%">
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Email</th>
+					<th>Senha</th>
+					<th>CEP</th>
+					<th>Endereço</th>
+				</tr>
+			</thead>
+			
+			<tbody id="todosUsuarios"></tbody>
+		</table>
+	</div>
+	
+	<script th:src="@{/js/usuarios.js}"></script>
+</body>
+</html>

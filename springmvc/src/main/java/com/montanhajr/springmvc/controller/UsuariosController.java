@@ -1,8 +1,11 @@
 package com.montanhajr.springmvc.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.montanhajr.springmvc.model.Usuario;
@@ -20,11 +23,10 @@ public class UsuariosController {
 		return new ModelAndView("usuarios");
 	}
 	
-	@RequestMapping("/teste")
-	public Usuario teste() {
-		Usuario usuario = _usuarioRepository.findByNomeAndEmailContaining("roi", "roi");
-		_usuarioRepository.buscarNomeCompleto();
+	@RequestMapping("/todos")
+	@ResponseBody
+	public List<Usuario> todos() {
 		
-		return usuario;
+		return _usuarioRepository.findAll();
 	}
 }

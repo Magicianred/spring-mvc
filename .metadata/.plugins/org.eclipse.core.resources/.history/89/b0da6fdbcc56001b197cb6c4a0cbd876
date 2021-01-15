@@ -1,0 +1,25 @@
+var linhaHtml;
+
+$.ajax({
+	url: "/usuarios/todos",
+	type: 'PUT'
+}).done(function(e) {
+	
+	linhaHtml = '';
+	if (e.length != 0) {
+		for(usuario of e) {
+			linhaHtml += '<tr>'
+							+'<td>' + usuario.id +'</td>'
+							+'<td>' + usuario.email +'</td>'
+							+'<td>' + usuario.senha +'</td>'
+							+'<td>' + usuario.endereco.rua + ',' + usuario.endereco.numero + ' - ' + usuario.endereco.bairro +'</td>'
+							+'<td>' + +'</td>'
+							+'<td>' + +'</td>'
+						+ '</tr>'
+		}		
+	}
+}).fail(function() {
+	alert("Não funcionou!")
+});
+
+$("#todosUsuarios").text("ok");
