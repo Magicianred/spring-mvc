@@ -1,5 +1,0 @@
-package com.montanhajr.springmvc.repository;
-
-public interface IUsuarioRepository {
-
-}
