@@ -28,10 +28,17 @@ function editar(){
 	var botao = $(event.currentTarget);
 	var idBotao = botao.attr('value');
 	
-	console.log("editar id: "+idBotao);
-	
 	window.location.href="/index/editar/" + idBotao;
 }
 function excluir(){
-	console.log("excluir");
+	
+	var botao = $(event.currentTarget);
+	var idBotao = botao.attr('value');
+	
+	$.ajax({
+		url: "/usuarios/excluir/" + idBotao,
+		type: 'DELETE'
+	}).done(function(e){
+		window.location.href="/usuarios";
+	})
 }
