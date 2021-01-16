@@ -4,6 +4,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+.metadata/
+
 ### STS ###
 .apt_generated
 .classpath
@@ -31,5 +33,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-../.metadata

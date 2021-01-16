@@ -1,7 +1,0 @@
-function buscar() {
-	if($("#cep").val() != "") {
-		$.ajax({
-			url: "http://viacep.com.br/ws/" + +$("#cep").val() + "/json/"
-		})
-	}
-}

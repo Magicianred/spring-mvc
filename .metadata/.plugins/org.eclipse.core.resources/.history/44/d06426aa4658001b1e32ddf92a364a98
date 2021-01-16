@@ -1,4 +1,0 @@
-spring.datasource.url=jdbc:mysql://localhost/springmvc?useSSL=false&allowPublicKey&useLegacyDatetimeCode=false&serverTimezone=America/Sao_Paulo
-spring.datasource.username= root
-spring.datasource.password= admin
-spring.jpa.hibernate.ddl-auto= update

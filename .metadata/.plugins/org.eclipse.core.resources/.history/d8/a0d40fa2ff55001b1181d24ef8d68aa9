@@ -1,9 +1,0 @@
-package com.montanhajr.springmvc.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.montanhajr.springmvc.model.Usuario;
-
-public interface IUsuarioRepository extends JpaRepository<Usuario, Long>{
-
-}

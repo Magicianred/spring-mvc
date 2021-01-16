@@ -1,5 +1,0 @@
-package com.montanhajr.springmvc.controller;
-
-public class HomeController {
-
-}
