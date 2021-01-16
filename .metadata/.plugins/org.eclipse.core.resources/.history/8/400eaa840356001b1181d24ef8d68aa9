@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: rgb(192, 192, 192);
+	color: black;
+	padding: 10px 70px 10px 70px;
+}
+
+#formulario{
+	background-color: white;
+	padding: 10vh;
+	border-radius: 15px;
+	border: 1px solid black;
+}
+
+thead{
+	background-color: blue;
+	color: white;
+}
+
+.house-number {
+	width: 105px
+}

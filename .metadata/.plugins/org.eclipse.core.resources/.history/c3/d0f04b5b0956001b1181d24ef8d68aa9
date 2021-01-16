@@ -1,0 +1,26 @@
+package com.montanhajr.springmvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.montanhajr.springmvc.model.Usuario;
+
+@Controller
+@RequestMapping({"/","/index"})
+public class HomeController {
+	
+	@RequestMapping
+	public ModelAndView tela() {
+		return new ModelAndView("index");
+	}
+	
+	@RequestMapping("/cadastrar")
+	@ResponseBody
+	public Usuario cadastrar(@RequestBody Usuario usuario) {
+		
+		return usuario;
+	}
+}

@@ -1,11 +1,34 @@
+var usuario = {};
+usuario.endereco = {};
+var id = window.location.href.split('/')[5];
+
+if(typeof id != 'undefined') {
+	$.ajax({
+		url: "/index/editarUsuario/" + id,
+		type: 'PUT'
+	}).done(function(e){
+		console.log(e);
+		
+		usuario.id = e.id;
+		usuario.endereco.id = e.endereco.id;
+		$("#nome").val(e.nome);
+		$("#email").val(e.email);
+		$("#senha").val(e.senha);
+		
+		$("#cep").val(e.endereco.cep);
+		$("#rua").val(e.endereco.rua);
+		$("#numero").val(e.endereco.numero);
+		$("#bairro").val(e.endereco.bairro);
+		$("#cidade").val(e.endereco.cidade);
+	})
+}
+
 function cadastrar() {
-	var usuario = {};
 	usuario.nome = $("#nome").val();
 	usuario.email = $("#email").val();
 	usuario.senha = $("#senha").val();
 	
 	//endereço
-	usuario.endereco = {};
 	usuario.endereco.cep = $("#cep").val();
 	usuario.endereco.rua = $("#rua").val();
 	usuario.endereco.numero = $("#numero").val();
